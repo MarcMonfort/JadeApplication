@@ -36,6 +36,10 @@ public class CyclicBehaviourAgent extends Agent {
             ++count_chocula;
         }
 
+        /*public void done() {      //como reimplementar???
+            return false;
+        }*/
+
     }
 
     protected void setup() {

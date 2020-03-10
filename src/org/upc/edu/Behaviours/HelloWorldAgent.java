@@ -27,6 +27,12 @@ public class HelloWorldAgent extends Agent {
 
 
         System.out.println("Hallo World! my name is " + getAID().getName() + " and my arguments are " + arguments);
+
+        doDelete(); //same as kill in GUI
+    }
+
+    protected void takeDown() {
+        System.out.println("Bye...");
     }
 
 }

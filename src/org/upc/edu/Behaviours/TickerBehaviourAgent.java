@@ -33,6 +33,7 @@ public class TickerBehaviourAgent extends Agent {
         public void onTick() {
             System.out.println(this.message + count_chocula);
             ++count_chocula;
+            if (count_chocula == 5) stop();
         }
 
     }
@@ -41,6 +42,7 @@ public class TickerBehaviourAgent extends Agent {
 
         HelloWorldTickerBehaviour b = new HelloWorldTickerBehaviour(this, 3000);
         this.addBehaviour(b);
+        //removeBehaviour(b);       //elimina b sin llamar onEnd()
     }
 
 
