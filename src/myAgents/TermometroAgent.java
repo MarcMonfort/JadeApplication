@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package org.upc.edu.Behaviours;
+package myAgents;
 
 import jade.core.AID;
 import jade.core.Agent;
